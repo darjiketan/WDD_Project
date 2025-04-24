@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEAM INFORMATION</title>
+   
+    <style>
+nav{
+        padding: 10px 0;
+        background-color: aliceblue;
+        display: flex;
+        justify-content: flex-end;   
+    }
+    nav ul {
+        display: flex;
+        justify-content: center;
+        
+        }
+    
+    nav ul li {
+         margin: 0px 15px;
+        }
+    nav ul li a {
+        font-size: 18px;
+        transition: 0.3s;
+        }   
+    nav ul li a:hover {
+        color: red;
+        }
+    
+    @media (max-width: 600px)
+    {
+        nav ul {
+        flex-direction: column;
+        text-align: center;
+        }          
+        nav ul li {
+        padding: 10px 0;
+                        
+       }
+    }
+    
+    nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        background-color: #333;
+        display: flex;
+    }
+    
+    nav ul li {
+        position: relative;
+    }
+    
+    nav ul li a {
+        display: block;
+        padding: 14px 20px;
+        color: white;
+        text-decoration: none;
+    }
+    
+    nav ul li:hover {
+        background-color: #555;
+    }
+    
+    
+    nav ul li ul {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: #f9f9f9;
+        min-width: 150px;
+        flex-direction: column;
+    }
+    
+    nav ul li ul li {
+        width: 100%;
+    }
+    
+    
+    
+    nav ul li:hover ul {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    nav ul li ul li:hover {
+        background-color: #ddd;
+    }
+    
+    nav ul li ul li a {
+        color: black;
+        padding: 10px;
+        padding-top: 10px;
+        font-size: 16px;  
+        font-weight: 500; 
+    }
+    .cards { 
+    
+    display: flex;
+    gap: 20px; 
+    flex-wrap: wrap;
+ }
+.card {
+     flex: 1;
+     min-width: 200px; 
+     
+     background: #f2f2f2; 
+     padding: 20px;
+     border-radius: 10px;
+     text-align: center; 
+    }
+    img{
+        width: 100%;
+        height: 60%;
+    }
+    </style>
+   
+</head>
+
+<body>
+    
+    <div class="navbar">
+        <div class="logo" style="color: #7ED321;"><a href="index.html">VIPANI</a></div>
+    <nav>
+        <UL> 
+         <li><a href="index.html">HOME</a></li>
+         <li><a href="#">ABOUT
+             <div class="dropdown">
+                 <ul>
+                     <li>Website</li>
+                     <li>Company</li>
+                     <li>Team</li>
+                 </ul>
+             </div>
+         </a></li>
+         <li><a href="#">SERVISIES
+             <div class="dropdown">
+                 <ul>
+                     <li>Delivery in
+                         30 minits</li>
+                     <li>    </li>
+                     <li>Team</li>
+                 </ul>
+             </div>
+         </a></li>
+         <li><a href="#">CONTACT
+             <div class="dropdown">
+                 <ul>
+                     <li>  Ketan
+                         9798991234
+                     </li>
+                     <li>  Amogh
+                         9798994567
+                     </li>
+                     <li> 
+                         Dharmesh
+                         9798994321
+                     </li>
+                 </ul>
+             </div>
+         </a></li>
+     </UL>
+     </nav>
+     <div class="cards">
+        <div class="card">
+             <img src="71.webp"> 
+             <h3>ADITYA JOSHI</h3>
+             <p>DESIGNATION:"SOFTWARE DEVLOPER"</p>
+             <p>EMAIL ID:"aditya.joshi3@gmail.com"</p>
+             <p>EXPERIENCE: 10 YEARS IN IT FIELD</p>
+           
+             
+        </div>
+
+
+        <div class="card">
+            <img src="72.jpg">
+            <h3>SUNDAR PICHAI</h3>
+            <p>DESIGNATION:"CEO"</p>
+            <p>EMAIL ID:"sundar.pichai@gmail.com"</p>
+            <p>EXPERIENCE: 37 YEARS IN IT FIELD</p>
+            
+        </div>
+
+        <div class="card">
+            <img src="73.jpg">
+            <h3>SATYA NADELA</h3>
+            <p>DESIGNATION:"ASSOCIATIVE MANAGER"</p>
+            <p>EMAIL ID:"satya.nadela78@gmail.com"</p>
+            <p>EXPERIENCE: 30 YEARS IN IT FIELD</p>
+           
+        </div>
+       
+        
+        <footer style="background-color: #222; color: #fff; padding: 20px 0; text-align: center; width: 100%;">
+            <p>&copy; 2025 VIPANI PVT LTD. All RIGHTS RESERVED BY AMOGH KETAN AND DHARMESH.</p>
+            <p>
+              <a href="#" style="color: #ccc; margin: 0 10px; text-decoration: none;">Home</a> |
+              <a href="#" style="color: #ccc; margin: 0 10px; text-decoration: none;">About</a> |
+              <a href="#" style="color: #ccc; margin: 0 10px; text-decoration: none;">Contact</a>
+            </p>
+          </footer>
+       
+       
+    
+    
+    </div>
+
+</body>
+</html>
